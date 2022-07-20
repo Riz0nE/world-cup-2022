@@ -1,0 +1,131 @@
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;0,800;1,800&family=Roboto+Condensed:ital,wght@0,700;1,400;1,700&family=Teko:wght@600&family=The+Nautigal:wght@700&display=swap');
+
+/* utilitys */
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    background-color: #161616;
+    width: 1321px;
+    height: 646px;
+    padding: 30px;
+    margin-top: 21px;
+    border-radius: 30px;
+}
+
+
+
+
+/*--------------------------- 
+     top section 
+-----------------------------*/
+.top-section {
+    display: flex;
+}
+
+.header-info {
+    width: 531px;
+    height: 437px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 70px;
+    width: 505px;
+    height: 242px;
+    color: white;
+}
+
+.header-pera {
+    width: 506px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    padding-top: 30px;
+}
+
+.header-button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+}
+
+.watch-button {
+    width: 187px;
+    height: 56px;
+    background-color: #DD0000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.header-pic img {
+    width: 581px;
+    height: 613px;
+    padding-left: 50px;
+    margin-top: 63px;
+}
+
+
+/* ------------------
+    middle section 
+---------------------*/
+
+.site-button {
+    width: 312px;
+    height: 312px;
+    background-color: #161616;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    grid-column-gap: 30px;
+    align-items: center;
+
+}
+
+.button1,
+.button2 {
+    width: 252px;
+    height: 64px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #161616;
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button3 {
+    width: 252px;
+    height: 64px;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    background-color: #DD0000;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button-text {
+    padding-top: 10px;
+}
